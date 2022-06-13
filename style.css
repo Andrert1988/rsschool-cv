@@ -1,0 +1,85 @@
+
+   .body {
+   display: flex;
+   margin: 0 ;
+   max-width: 1024px;
+   min-width: 480px;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   
+ }
+  .header {
+    background-color: #999982;
+  }
+    .list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+    .link {
+    position: relative;
+    padding: 0 10px; /*растояние между буквами */
+    text-decoration: none; /*ссылки убирает подчеркивание */
+    font-size: 20px; /*высота шрифта */
+    line-height: 50px; /*высота ячейки */
+    color: rgb(10, 10, 10); /*цвет шрифта */
+  }
+  
+  .main {
+    margin-bottom: auto;
+  }
+  .section-photo {
+    display: flex; /*справа шрифт */
+    justify-content: space-around;
+    width: 50%;
+    }
+  .section-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999982;
+  }
+     .img {
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    }
+    .section-profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;  
+        text-transform: uppercase;
+    }
+
+        .section {
+          border-bottom: 1px solid #999982;
+        }
+    
+  .footer {
+    background-color: #999982;
+    padding: 5px;  
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link {
+    color: #fff;
+    text-decoration: none;
+    }
+    .link1 {
+        color: #999982;
+        text-decoration: none;
+        }
+        .iconrss {
+          width: 70px;
+          height: 70px
+        }
+        .cod {
+          padding: 0;
+          margin: 0;
+        }
+       
